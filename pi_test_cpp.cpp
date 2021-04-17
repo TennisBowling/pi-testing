@@ -31,7 +31,7 @@ void fib(){
         double a;
         Timer t;
         for (int i = 1; i < 100000000; i++){
-         a=2*(i%2)-1
+         a=2*(i%2)-1;
          pi+=a*n/d;
          d+=2;
         }
