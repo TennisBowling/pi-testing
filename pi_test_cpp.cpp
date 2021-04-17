@@ -1,6 +1,5 @@
 #include <chrono>
 #include <iostream>
-#include <cmath>
 using namespace std;
 class Timer
 {
@@ -31,8 +30,8 @@ void fib(){
         double d = 1;
         double a;
         Timer t;
-        for (double i = 1; i < 100000000; i++){
-         a=2*std::fmod(i,2)-1;
+        for (int i = 1; i < 100000000; i++){
+         a=2*(i%2)-1
          pi+=a*n/d;
          d+=2;
         }
