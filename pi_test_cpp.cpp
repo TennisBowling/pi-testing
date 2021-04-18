@@ -30,8 +30,8 @@ void fib(){
         double d = 1;
         double a;
         Timer t;
-        for (double i = 1; i < 100000000; i++){
-         a=2*(i mod 2)-1;
+        for (int i = 1; i < 100000000; i++){
+         a=2*(i%2)-1;
          pi+=a*n/d;
          d+=2;
         }
