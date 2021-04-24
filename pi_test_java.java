@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MyClass {
+public class pi_test_java {
     public static void main(String args[]) {
         double pi = 0;
         double n = 4;

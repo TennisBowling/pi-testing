@@ -25,10 +25,10 @@ public:
 	}
 };
 void fib(){
-        double pi = 0;
-        double n = 4;
-        double d = 1;
-        double a;
+        float pi = 0;
+        float n = 4;
+        float d = 1;
+        float a;
         Timer t;
         for (int i = 1; i < 100000000; i++){
          a=2*(i%2)-1;
