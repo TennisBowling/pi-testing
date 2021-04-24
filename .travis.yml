@@ -1,0 +1,9 @@
+language: generic
+
+script: 
+ - make
+ - make cpp
+ - make c
+ - make java
+ - make nim
+ - make python
