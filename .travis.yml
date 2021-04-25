@@ -1,4 +1,5 @@
 language: generic
+dist: focal
 
 script: 
  - sudo apt-get update
