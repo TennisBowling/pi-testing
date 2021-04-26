@@ -4,16 +4,12 @@ dist: focal
 script: 
  - sudo apt-get update
  - sudo apt-get install default-jre default-jdk nim g++ python3 -y
- - g++ pi_test_cpp.cpp
- - ./a.out
- - sudo rm -rf a.out
- - g++ pi_test_c.c
- - ./a.out
- - sudo rm -rf a.out
+ - g++ pi_test_cpp.cpp -o pi_test_cpp
+ - ./pi_test_cpp
+ - g++ pi_test_c.c -o pi_test_c
+ - ./pi_test_c
  - javac pi_test_java.java
  - java pi_test_java
- - sudo rm -rf pi_test_java.class
  - nim cpp -d:danger pi_test_nim.nim
  - ./pi_test_nim
- - sudo rm -rf pi_test_nim
  - python3 pi_test_python.py
