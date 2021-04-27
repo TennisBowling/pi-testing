@@ -36,7 +36,7 @@ void fib(){
          d+=2;
         }
 		float time_elapsed = t.elapsed();
-        std::cout << "c++'s pi value is:" << "\n" << pi << "c++'s time elapsed is:" << "\n" << time_elapsed;
+        std::cout << "c++'s pi value is: \n" << pi << "\n c++'s time elapsed is: \n" << time_elapsed;
 };
 int main() {
     fib();
