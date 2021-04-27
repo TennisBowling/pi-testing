@@ -13,3 +13,4 @@ script:
  - nim cpp -d:danger pi_test_nim.nim
  - ./pi_test_nim
  - python3 pi_test_python.py
+ - cpuid
