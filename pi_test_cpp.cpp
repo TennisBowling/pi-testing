@@ -25,9 +25,9 @@ public:
 	}
 };
 void fib(){
-        float pi = 0;
-        float n = 4;
-        float d = 1;
+        float pi {0};
+        float n = {4};
+        float d = {1};
         float a;
         Timer t;
         for (int i = 1; i < 100000000; i++){
