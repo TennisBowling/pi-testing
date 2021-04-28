@@ -14,9 +14,9 @@ void fib(){
         }
         clock_t end = clock();
         double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
-        printf("C's pi value is:");
+        printf("C's pi value is: \n");
         printf("%lf",pi);
-        printf("C's time spent is:");
+        printf("\nC's time spent is: \n");
         printf("%lf",time_spent);
 
 };
