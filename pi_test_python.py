@@ -1,5 +1,7 @@
 import time
+from numba import jit
 
+@jit(nopython=True)
 def fib():
     pi = 0
     n = 4
