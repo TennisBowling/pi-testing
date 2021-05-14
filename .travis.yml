@@ -2,8 +2,8 @@ language: generic
 dist: focal
 
 script: 
- - sudo apt-get update
- - sudo apt-get install default-jre default-jdk nim g++ python3 cpuid -y
+ - sudo apt-get update > /dev/null
+ - sudo apt-get install default-jre default-jdk nim g++ python3 cpuid -y > /dev/null
  - g++ pi_test_cpp.cpp -o pi_test_cpp
  - ./pi_test_cpp
  - g++ pi_test_c.c -o pi_test_c
