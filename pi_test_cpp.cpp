@@ -1,6 +1,5 @@
 #include <ctime>
 #include <iostream>
-using namespace std;
 void fib(){
         double pi {0};
         double n {4};
