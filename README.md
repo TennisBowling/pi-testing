@@ -9,6 +9,7 @@ python:      3.141592663589326   / 15.269594192504883 \
 all run on a AMD ryzen 5 2600x. \
 ## rules:
 all use their default compiler, no flags (with some exceptions such as to nim) \
+types **must** be float64 or int64
 c++/c: use `g++` \
 java uses `javac` \
 python uses `java3` \
