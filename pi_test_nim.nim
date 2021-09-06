@@ -13,7 +13,7 @@ proc fib(): float64 =
     return pi
 let start = epochTime()
 let pi_value = fib()
-let time_elapsed = (epochtime() - start).round(2)
+let time_elapsed = (epochtime() - start)
 stderr.writeLine("Nim's pi value is:")
 stderr.writeLine(pi_value)
 stderr.writeLine("Nim's time elapsed is:")
