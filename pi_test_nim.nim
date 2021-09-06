@@ -1,13 +1,13 @@
 import math, times
-var pi, n, d, a: float32
-pi = 0'f32
-n = 4'f32
-d = 1'f32
-a = 0'f32
+var pi, n, d, a: float64
+pi = 0'f64
+n = 4'f64
+d = 1'f64
+a = 0'f64
 
-proc fib(): float32 =
+proc fib(): float64 =
     for i in 1'i32 ..< 100000000:
-        a = float32(2 * (i mod 2) - 1)
+        a = float64(2 * (i mod 2) - 1)
         pi += a * n / d
         d += 2
     return pi
